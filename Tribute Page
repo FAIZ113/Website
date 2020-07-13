@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <style>
+          .top{text-align:center;
+margin:20px 140px 20px 140px;
+  
+}
+.col-md-12{ 
+  background-color:rgb(150,200,150);
+ 
+}
+h1{font-size:100px;
+
+  color:rgba(0,0,0,.2);
+  background:center/cover url("data:image/jpeg;base64,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") no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  }
+h2{font-size:40px;}
+h3{font-size:45px;}
+hr{margin:auto;width:70%;height:4px;border-width:0;color:black;background-color:black;}
+.center{background-color:rgb(246,240,240);
+  
+font-size:1.5em;
+padding:40px;
+font-family:cambria;}
+.thumbnail{
+    
+  background-color: #cccccc;
+  background-image: linear-gradient(#FF9933,#FFFFFF,#138808);
+}
+img {
+  margin:20px;
+  border-radius: 60%;
+  height:600px;
+      }
+  .text-center{
+  
+      width:50%;
+      margin:05px 20px 2px 420px;
+      color:rgb(206,290,290);
+      font-size:2em;
+      text-align:center;
+      }
+      .center{
+
+      background-color: #eeffee;
+      background-image: url();
+      } 
+      footer{text-align:left;margin:10px;
+        font-size:1.5em;
+       background-color:white;}
+      .timeline{background-color:rgb(246,240,240);
+      text-align:left;
+      margin:0px 0px 0px 0px;}
+      cite{color:rgb(20,150,150);}
+      li{ font-size:2em;}
+
+    </style>
+  </head>
+<div class="top">
+  
+  <div class="col-md-12"><h1 ><b>Dr. APJ Abdul Kalam</b></h1><h2 >1931-2015</h2>
+ <h3 >Missile Man Of India </h3>
+  <hr ><br><br>
+    
+  </div>
+  <div class="thumbnail center">Avul Pakir Jainulabdeen Abdul Kalam (15 October 1931 – 27 July 2015) was an Indian aerospace scientist and politician who served as the 11th President of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) .He thus came to be known as the <em>Missile Man of India </em>for his work on the development of ballistic missile and launch vehicle technology.</div>
+  
+              <div class="thumbnail">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/A._P._J._Abdul_Kalam_in_2008.jpg/375px-A._P._J._Abdul_Kalam_in_2008.jpg" alt="APJ ABDUL Kalam" >
+                    <div class="caption text-center">Dr. A.P.J. Abdul Kalam – The Missile Man of India.</div>
+</div>
+
+
+            <div class="timeline">
+                <h3>The following list is a time line of Kalam's Life : </h3>
+                <ul>
+                    <li><strong>1931</strong> - born and raised in Rameswaram, Tamil Nadu.</li>
+                     <li><strong>1954</strong> - Graduates in Physics from Saint Joseph's College, Tiruchirappalli. </li>
+                    <li><strong>1960</strong> - Gains degree in Aeronautical Engineering   from Madras Institute of Technology.</li>
+                    <li><strong>1969</strong> - Transferred to ISRO from the DRDO.</li>
+                    <li><strong>1980</strong> - India enters the space club by putting the Rohini satellite in the near earth orbit with the first indigenous Satellite Launch Vehicle (SLV-III), developed under the stewardship of Dr. Kalam.
+</li> 
+                  <li><strong>1980</strong> -1990s: As the chief of the Integrated Guided Missile Development Programme, he was responsible for the development and operationalisation of AGNI and PRITHVI Missiles.</li>
+                    <li><strong>1992</strong> -1999 - works as Chief Scientific Advisor to the PM and Secretary of the DRDO.
+ </li>
+                    <li><strong>1998</strong> - Played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests . <BR>          
+Along with cardiologist Soma Raju, Kalam developed a low cost coronary stent, named the "Kalam-Raju Stent".<br>         In 2012, the duo designed a rugged tablet computer for health care in rural areas, which was named the "Kalam-Raju Tablet".</li> 
+                  
+                    <li><strong>2002-</strong> -2007- served as the 11th President of India.</li>
+             <li><strong>2015</strong> - Died from an apparent cardiac arrest on 27 July 2015, aged 83.
+</li>                </ul>
+               
+              <div class="text-center">
+                    <cite>
+                        Read more about Abdul Kalam on <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Wikipedia</a>.
+                    </cite>
+                </div>
+            </div>
+          
+          
+        <footer>
+            <h4><cite>
+                Written and coded by <a href="https://www.linkedin.com/in/amina-faiz-0113/" target="_blank">Amina Faiz  .</a><br><br>
+            </cite>            </h4>
+
+        </footer>
+      </div>
+
+
+</div>
+</body>
+</html>
